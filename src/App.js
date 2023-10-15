@@ -9,6 +9,7 @@ import UseContextComp from './components/UseContext/UseContextComp';
 import UseRefComp from './components/UseRefComp';
 import UseReducerComp from './components/UseReducer/UseReducerComp';
 import UseImperativeHandleComp from './components/UseImperativeHandle/UseImperativeHandleComp';
+import UseTransitionComp from './components/UseTransition/UseTransitionComp';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/useref" element={<UseRefComp />} />
         <Route path="/usereducer" element={<UseReducerComp />} />
         <Route path="/useimperativehandle" element={<UseImperativeHandleComp />} />
+        <Route path="/usetransition" element={<UseTransitionComp />} />
       </Routes>
       </BrowserRouter>
     </div>

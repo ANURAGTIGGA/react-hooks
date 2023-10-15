@@ -30,6 +30,9 @@ export default function Home() {
                 <li>
                     <Link to="/useimperativehandle">useImperativeHandle</Link>
                 </li>
+                <li>
+                    <Link to="/usetransition">useTransition</Link>
+                </li>
             </ul>
         </div>
     )
