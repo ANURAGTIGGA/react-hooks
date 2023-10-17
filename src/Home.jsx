@@ -33,6 +33,9 @@ export default function Home() {
                 <li>
                     <Link to="/usetransition">useTransition</Link>
                 </li>
+                <li>
+                    <Link to="/usedeferredvalue">useDeferredValue</Link>
+                </li>
             </ul>
         </div>
     )

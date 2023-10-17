@@ -19,6 +19,6 @@
   padding: 15px;
 }
 
-.App .tab-container .items{
+.App .tab-container .items, .App .deferred-value .items{
   flex-direction: column;
 }

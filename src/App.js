@@ -10,6 +10,7 @@ import UseRefComp from './components/UseRefComp';
 import UseReducerComp from './components/UseReducer/UseReducerComp';
 import UseImperativeHandleComp from './components/UseImperativeHandle/UseImperativeHandleComp';
 import UseTransitionComp from './components/UseTransition/UseTransitionComp';
+import UseDeferredValueComp from './components/UseDeferredValue/UseDeferredValueComp';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/usereducer" element={<UseReducerComp />} />
         <Route path="/useimperativehandle" element={<UseImperativeHandleComp />} />
         <Route path="/usetransition" element={<UseTransitionComp />} />
+        <Route path="/usedeferredvalue" element={<UseDeferredValueComp />} />
       </Routes>
       </BrowserRouter>
     </div>
